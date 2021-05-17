@@ -43,16 +43,16 @@
   "script_phases": {
     "name": "Generate Specs",
     "input_files": [
-      "/Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../Libraries"
+      "/Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../Libraries"
     ],
     "output_files": [
       "$(DERIVED_FILE_DIR)/codegen-FBReactNativeSpec.log",
-      "/Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h",
-      "/Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm"
+      "/Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h",
+      "/Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm"
     ],
-    "script": "set -o pipefail\n\nbash -l -c 'SRCS_DIR=/Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../Libraries CODEGEN_MODULES_OUTPUT_DIR=/Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec CODEGEN_MODULES_LIBRARY_NAME=FBReactNativeSpec /Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/generate-specs.sh' 2>&1 | tee \"${SCRIPT_OUTPUT_FILE_0}\"",
+    "script": "set -o pipefail\n\nbash -l -c 'SRCS_DIR=/Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../Libraries CODEGEN_MODULES_OUTPUT_DIR=/Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec CODEGEN_MODULES_LIBRARY_NAME=FBReactNativeSpec /Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/generate-specs.sh' 2>&1 | tee \"${SCRIPT_OUTPUT_FILE_0}\"",
     "execution_position": "before_compile",
     "show_env_vars_in_log": true
   },
-  "prepare_command": "mkdir -p /Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec && touch /Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h /Users/mitlesh/Documents/PersonalData/TestApp/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm"
+  "prepare_command": "mkdir -p /Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec && touch /Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h /Users/mitlesh/Documents/PersonalData/195242ed2651fa7a60a5/node_modules/react-native/scripts/../React/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm"
 }
