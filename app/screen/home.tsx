@@ -45,7 +45,7 @@ const HomeContainer = (props: any) => {
           </Item>
         </Form>
         <Button
-          style={{ marginVertical: 30, width: "40%", alignSelf: "center" }}
+          style={{ marginVertical: 30, width: "80%", alignSelf: "center" }}
           primary
           disabled={country == "" ? true : false}
           onPress={() => apiCall(country)}
